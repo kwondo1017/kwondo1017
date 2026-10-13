@@ -1,8 +1,10 @@
 # 권도윤 · Doyun Kwon
 
-한국항공대학교 소프트웨어학과 학부생입니다. Java / Spring 기반 서비스 개발과 Rust 오픈소스 기여 경험을 쌓고 있으며, 분산시스템·스토리지·시스템 소프트웨어에 관심이 있습니다.
+한국항공대학교 소프트웨어학과 학부생입니다. 
+Java / Spring 기반 서비스 개발과 Rust 오픈소스 기여 경험을 쌓고 있으며, 분산시스템·스토리지·시스템 소프트웨어에 관심이 있습니다.
 
-Blog · GitHub
+[Blog](https://velog.io/@kwondo1017) · [GitHub](https://github.com/kwondo1017)
+
 
 ## Development Experience
 
@@ -16,7 +18,7 @@ Blog · GitHub
 - PostgreSQL, JPA, Flyway 사용
 - AWS EC2, Docker, GitHub Actions 기반 배포 및 CI/CD 구성
 
-Repository
+[Repository](https://github.com/fresh-kitchen-team/fresh-kitchen)
 
 ### GlueSQL — 오픈소스 기여
 2026.07–현재 · OSSCA 참여
@@ -27,7 +29,7 @@ Rust 기반 SQL 엔진의 SQL 구문 처리와 테스트, 성능 측정 작업�
 - SQL 변환기의 오류 경로와 파서 동작 검증
 - 값 복사·참조 공유 비용과 쿼리 평가 비용의 기준 측정 및 소유권 구조 조사
 
-Contributions · SQL 처리 개선 · 성능 측정
+[Contributions](https://github.com/gluesql/gluesql/pulls?q=is%3Apr+author%3Akwondo1017)
 
 ### CoolingVerse — Oracle 공공데이터 프로젝트
 2026.06–2026.08 · 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포
@@ -39,14 +41,15 @@ Contributions · SQL 처리 개선 · 성능 측정
 - OCI 및 Autonomous Database 기반 서비스 배포, CI/CD 구성
 - 팀 일정과 개발·배포 과정 조율
 
-Data · Frontend · Backend
+[Team](https://github.com/CoolingVerseOracle)
 
 ## Currently Learning
 
 - **Algorithms / C++17** — 자료구조와 알고리즘 문제 풀이
-  problem-solving
+  [problem-solving](https://github.com/kwondo1017/problem-solving)
 - **AI Agent** — 도구 호출, 컨텍스트·메모리 관리와 에이전트 실행 구조 학습  
-  ToDoScheduler · 학습용 저장소 준비 중
+  [ToDoScheduler](https://github.com/kwondo1017/ToDoScheduler) · 학습용 저장소 준비 중
+
 
 ## Tech Stack
 
