@@ -19,7 +19,20 @@
 | 2026.06–2026.08 | Oracle 공공데이터 프로젝트 · CoolingVerse | 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포 |
 | 2026.07–2026.10 (진행 중) | 오픈소스 컨트리뷰션 아카데미 · GlueSQL | Rust 기반 SQL 엔진 기여 |
 
+| 진행 중 | Project X · 금융 AI 자산관리 서비스 | 백엔드 개발, API·데이터 모델 설계, AI 계산 서비스 연동 |
+
 ## Development Experience
+
+### Project X — 금융 AI 자산관리 서비스
+진행 중 · 백엔드 개발
+
+사용자의 재무목표와 현재 상태를 바탕으로 자산 형성 계획을 수립하고 점검하는 서비스입니다. 금융 AI 챌린지 MVP를 시작으로 개발을 이어가고 있습니다.
+
+- Java / Spring Boot 기반 백엔드 개발
+- 자산관리 계획 생성·조회 API와 PostgreSQL 데이터 모델 설계
+- FastAPI 기반 AI 계산 서비스 연동 및 프론트엔드 API 계약 정리
+
+[Backend Repository](https://github.com/projectX-Loop/backend)
 
 ### Fresh Kitchen — 산학 프로젝트
 2026.03–2026.06 · 백엔드 개발
