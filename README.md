@@ -2,16 +2,14 @@
 
 # 권도윤 · Doyun Kwon
 
-한국항공대학교 소프트웨어학과 학부생입니다. 
-
-Java / Spring 기반 서비스 개발과 Rust 오픈소스 기여 경험을 쌓고 있으며, 분산시스템·스토리지·시스템 소프트웨어에 관심이 있습니다.
+한국항공대학교 소프트웨어학과
 
 [![Blog](https://img.shields.io/badge/Blog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@kwondo1017)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kwondo1017)
 
 </div>
 
-## Development Experience
+## Experience
 
 ### Fresh Kitchen — 산학 프로젝트
 2026.03–2026.06 · 백엔드 개발
@@ -55,11 +53,25 @@ Rust 기반 SQL 엔진의 SQL 구문 처리와 테스트, 성능 측정 작업�
 - **AI Agent** — 도구 호출, 컨텍스트·메모리 관리와 에이전트 실행 구조 학습  
   [ToDoScheduler](https://github.com/kwondo1017/ToDoScheduler) · 학습용 저장소 준비 중
 
-
 ## Tech Stack
 
-- **Languages:** Java, Python, C++
-- **Backend:** Spring Boot, JPA
-- **Database:** PostgreSQL, Oracle Autonomous Database
-- **Frontend:** Vue
-- **Infrastructure:** AWS EC2, OCI, Docker, Nginx, GitHub Actions
+### Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+### Backend & Database
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Oracle Autonomous Database](https://img.shields.io/badge/Oracle%20Autonomous%20Database-F80000?style=flat-square)
+
+### Frontend
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+
+### Infrastructure
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square)
+![OCI](https://img.shields.io/badge/OCI-F80000?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
