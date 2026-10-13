@@ -17,52 +17,60 @@
 | 2026.01–2026.03 | 알고리즘 학회 Koala · 심화반 21기 | 알고리즘 심화반 활동 |
 | 2026.03–2026.06 | 산학 프로젝트 · Fresh Kitchen | 백엔드 개발, DB·ERD·REST API 설계 |
 | 2026.06–2026.08 | Oracle 공공데이터 프로젝트 · CoolingVerse | 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포 |
-| 2026.07–2026.10 (진행 중) | 오픈소스 컨트리뷰션 아카데미 · GlueSQL | Rust 기반 SQL 엔진 기여 |
-| 진행 중 | Project X · 금융 AI 자산관리 서비스 | 백엔드 개발, API·데이터 모델 설계, AI 계산 서비스 연동 |
+| 2026.07–2026.10 | 오픈소스 컨트리뷰션 아카데미 · GlueSQL | Rust 기반 SQL 엔진 기여 |
+| 2026.09–진행 중 | Project X · 금융 AI 자산관리 서비스 | 백엔드 개발, API·데이터 모델 설계, 인프라·AWS 클라우드 배포 |
 
 ## Development Experience
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Project X — 금융 AI 자산관리 서비스</h3>
-      <p><b>진행 중 · 백엔드 개발</b></p>
-      <p>사용자의 재무목표와 현재 상태를 바탕으로 자산 형성 계획을 수립하고 점검하는 서비스입니다. 금융 AI 챌린지 MVP를 시작으로 개발을 이어가고 있습니다.</p>
+      <h3>금융 AI 자산관리 서비스 — Project X</h3>
+      <p><b>PM·인프라·백엔드 개발</b></p>
+      <p>사용자의 재무목표와 현재 상태를 바탕으로 자산 형성 계획을 수립하고 점검하는 서비스입니다.</p>
       <ul>
+        <li>프로젝트 컨셉 수립 및 PRD 작성</li>
         <li>Java / Spring Boot 기반 백엔드 개발</li>
         <li>자산관리 계획 생성·조회 API와 PostgreSQL 데이터 모델 설계</li>
-        <li>FastAPI 기반 AI 계산 서비스 연동 및 프론트엔드 API 계약 정리</li>
+        <li>AWS EC2, Docker, GitHub Actions 기반 배포 및 CI/CD 구성</li>
       </ul>
-      <p><a href="https://github.com/projectX-Loop/backend">Backend Repository</a></p>
+      <p>
+        <a href="https://github.com/projectX-Loop/backend">Backend-></a>
+        <br><br>
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3>Fresh Kitchen — 산학 프로젝트</h3>
-      <p><b>2026.03–2026.06 · 백엔드 개발</b></p>
-      <p>바코드와 사진을 활용한 식재료 관리 서비스입니다.</p>
+      <p><b>백엔드 개발</b></p>
+      <p>바코드와 사진을 활용하여 음식 폐기물 감소를 목표로 하는 ESG 식재료 관리 서비스입니다.</p>
       <ul>
         <li>Java / Spring Boot 기반 백엔드 개발</li>
         <li>데이터베이스 모델링 및 ERD 작성, REST API 설계</li>
         <li>PostgreSQL, JPA, Flyway 사용</li>
-        <li>AWS EC2, Docker, GitHub Actions 기반 배포 및 CI/CD 구성</li>
+        <li>FastAPI 기반 AI 계산 서비스 연동 및 프론트엔드 API 계약 정리</li>
       </ul>
-      <p><a href="https://github.com/fresh-kitchen-team/fresh-kitchen">Repository</a></p>
+      <p><a href="https://github.com/fresh-kitchen-team/fresh-kitchen">Backend-></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>GlueSQL — 오픈소스 기여</h3>
-      <p><b>2026.07–현재 · OSSCA 참여</b></p>
+      <p><b>OSSCA 참여</b></p>
       <p>Rust 기반 SQL 엔진의 SQL 구문 처리와 테스트, 성능 측정 작업에 기여하고 있습니다.</p>
       <ul>
         <li>지원하지 않는 SQL 구문·옵션의 처리 개선 및 회귀 테스트 추가</li>
         <li>SQL 변환기의 오류 경로와 파서 동작 검증</li>
-        <li>값 복사·참조 공유 비용과 쿼리 평가 비용의 기준 측정 및 소유권 구조 조사</li>
+        <li>값 복사·참조 공유 비용 측정</li>  
+        <li>쿼리 평가 비용의 기준 측정 및 소유권 구조 조사</li>
       </ul>
-      <p><a href="https://github.com/gluesql/gluesql/pulls?q=is%3Apr+author%3Akwondo1017">Contributions</a></p>
+      <p>
+        <a href="https://github.com/gluesql/gluesql/pulls?q=is%3Apr+author%3Akwondo1017">Contributions-></a>
+        <br><br>
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3>CoolingVerse — Oracle 공공데이터 프로젝트</h3>
-      <p><b>2026.06–2026.08 · 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포</b></p>
+      <p><b>프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포</b></p>
       <p>불법주정차 단속 데이터와 유휴 주차공간 데이터를 활용한 지역 주차 현황 대시보드입니다.</p>
       <ul>
         <li>공공데이터 전처리와 분석</li>
@@ -70,7 +78,11 @@
         <li>OCI 및 Autonomous Database 기반 서비스 배포, CI/CD 구성</li>
         <li>팀 일정과 개발·배포 과정 조율</li>
       </ul>
-      <p><a href="https://github.com/CoolingVerseOracle">Team</a></p>
+      <p>
+        <a href="https://github.com/CoolingVerseOracle/CoolingVerse-frontend">Frontend-></a> &nbsp;&nbsp;
+        <a href="https://github.com/CoolingVerseOracle/CoolingVerse-backend">Backend-></a> &nbsp;&nbsp;
+        <a href="https://github.com/CoolingVerseOracle/CoolingVerse-data">Data-></a>
+      </p>
     </td>
   </tr>
 </table>
