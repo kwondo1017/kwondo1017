@@ -9,71 +9,98 @@
 
 </div>
 
-## About Me
+## Activity
 
-Java / Spring 기반 백엔드 개발을 시작으로, 데이터 처리와 클라우드 배포까지 경험을 넓혀왔습니다. 최근에는 Rust 기반 SQL 엔진에 기여하며 서비스가 사용하는 시스템의 내부 구조를 공부하고 있습니다.
-
-분산시스템과 스토리지, 성능 최적화에 관심이 있습니다. 기능을 구현하는 경험을 바탕으로, 복잡한 시스템의 동작을 이해하고 기술적 문제를 해결하는 엔지니어로 성장하고자 합니다.
-
-
+| 기간 | 활동 | 역할·내용 |
+| :--- | :--- | :--- |
+| 2025.09–2025.12 | AD 보행온 · 2등 수상 | 교통약자 보행 안내 서비스 기획·Figma 프로토타입, 보고서 작성 |
+| 2026.01–2026.03 | 알고리즘 학회 Koala · 심화반 21기 | 알고리즘 심화반 활동 |
+| 2026.03–2026.06 | 산학 프로젝트 · Fresh Kitchen | 백엔드 개발, DB·ERD·REST API 설계 |
+| 2026.06–2026.08 | Oracle 공공데이터 프로젝트 · CoolingVerse | 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포 |
+| 2026.07–2026.10 (진행 중) | 오픈소스 컨트리뷰션 아카데미 · GlueSQL | Rust 기반 SQL 엔진 기여 |
+| 진행 중 | Project X · 금융 AI 자산관리 서비스 | 백엔드 개발, API·데이터 모델 설계, AI 계산 서비스 연동 |
 
 ## Development Experience
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧊 Fresh Kitchen</h3>
-      <p><b>산학 프로젝트 · 백엔드 개발</b><br>2026.03–2026.06</p>
-      <p>바코드와 사진을 활용한 식재료 관리 서비스</p>
+      <h3>Project X — 금융 AI 자산관리 서비스</h3>
+      <p><b>진행 중 · 백엔드 개발</b></p>
+      <p>사용자의 재무목표와 현재 상태를 바탕으로 자산 형성 계획을 수립하고 점검하는 서비스입니다. 금융 AI 챌린지 MVP를 시작으로 개발을 이어가고 있습니다.</p>
       <ul>
-        <li>DB 모델링·ERD 작성, REST API 설계</li>
-        <li>Spring Boot · JPA · PostgreSQL</li>
-        <li>AWS EC2 · Docker · GitHub Actions</li>
+        <li>Java / Spring Boot 기반 백엔드 개발</li>
+        <li>자산관리 계획 생성·조회 API와 PostgreSQL 데이터 모델 설계</li>
+        <li>FastAPI 기반 AI 계산 서비스 연동 및 프론트엔드 API 계약 정리</li>
       </ul>
-      <a href="https://github.com/kwondo1017/fresh-kitchen">Repository →</a>
+      <p><a href="https://github.com/projectX-Loop/backend">Backend Repository</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🦀 GlueSQL</h3>
-      <p><b>오픈소스 기여 · OSSCA 참여</b><br>2026.07–현재</p>
-      <p>Rust 기반 SQL 엔진 개발에 기여</p>
+      <h3>Fresh Kitchen — 산학 프로젝트</h3>
+      <p><b>2026.03–2026.06 · 백엔드 개발</b></p>
+      <p>바코드와 사진을 활용한 식재료 관리 서비스입니다.</p>
       <ul>
-        <li>SQL 구문·옵션 처리 개선</li>
-        <li>오류 경로 검증 및 회귀 테스트</li>
-        <li>값 복사·쿼리 평가 비용 측정</li>
+        <li>Java / Spring Boot 기반 백엔드 개발</li>
+        <li>데이터베이스 모델링 및 ERD 작성, REST API 설계</li>
+        <li>PostgreSQL, JPA, Flyway 사용</li>
+        <li>AWS EC2, Docker, GitHub Actions 기반 배포 및 CI/CD 구성</li>
       </ul>
-      <a href="https://github.com/gluesql/gluesql/pulls?q=is%3Apr+author%3Akwondo1017">Contributions →</a>
+      <p><a href="https://github.com/fresh-kitchen-team/fresh-kitchen">Repository</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚙 CoolingVerse</h3>
-      <p><b>Oracle 공공데이터 프로젝트</b><br>2026.06–2026.08</p>
-      <p>불법주정차·유휴 주차공간 데이터를 활용한 대시보드</p>
+      <h3>GlueSQL — 오픈소스 기여</h3>
+      <p><b>2026.07–현재 · OSSCA 참여</b></p>
+      <p>Rust 기반 SQL 엔진의 SQL 구문 처리와 테스트, 성능 측정 작업에 기여하고 있습니다.</p>
       <ul>
-        <li>프로젝트 총괄, 공공데이터 처리·분석</li>
-        <li>Vue 기반 프론트엔드 개발</li>
-        <li>OCI · Autonomous Database · CI/CD</li>
+        <li>지원하지 않는 SQL 구문·옵션의 처리 개선 및 회귀 테스트 추가</li>
+        <li>SQL 변환기의 오류 경로와 파서 동작 검증</li>
+        <li>값 복사·참조 공유 비용과 쿼리 평가 비용의 기준 측정 및 소유권 구조 조사</li>
       </ul>
-      <a href="https://github.com/CoolingVerseOracle/Coolingverse-data">Data</a> ·
-      <a href="https://github.com/CoolingVerseOracle/CoolingVerse-frontend">Frontend</a> ·
-      <a href="https://github.com/CoolingVerseOracle/Coolingverse-backend">Backend</a>
+      <p><a href="https://github.com/gluesql/gluesql/pulls?q=is%3Apr+author%3Akwondo1017">Contributions</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📚 Currently Learning</h3>
-      <p><b>Algorithms / C++17</b></p>
-      <p>자료구조·알고리즘 문제 풀이와 접근 방법·복잡도 기록</p>
-      <a href="https://github.com/kwondo1017/problem-solving">Problem Solving →</a>
-      <br><br>
-      <p><b>AI Agent</b></p>
-      <p>도구 호출, 컨텍스트·메모리 관리와 에이전트 실행 구조 학습</p>
-      <a href="https://github.com/kwondo1017/ToDoScheduler">ToDoScheduler →</a>
+      <h3>CoolingVerse — Oracle 공공데이터 프로젝트</h3>
+      <p><b>2026.06–2026.08 · 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포</b></p>
+      <p>불법주정차 단속 데이터와 유휴 주차공간 데이터를 활용한 지역 주차 현황 대시보드입니다.</p>
+      <ul>
+        <li>공공데이터 전처리와 분석</li>
+        <li>Vue 기반 대시보드 개발</li>
+        <li>OCI 및 Autonomous Database 기반 서비스 배포, CI/CD 구성</li>
+        <li>팀 일정과 개발·배포 과정 조율</li>
+      </ul>
+      <p><a href="https://github.com/CoolingVerseOracle">Team</a></p>
     </td>
   </tr>
 </table>
 
+## Currently Learning
+
+- **Algorithms / C++17** — 자료구조와 알고리즘 문제 풀이<br>
+  [problem-solving](https://github.com/kwondo1017/problem-solving)
+- **AI Agent** — 도구 호출, 컨텍스트·메모리 관리와 에이전트 실행 구조 학습<br>
+  [ToDoScheduler](https://github.com/kwondo1017/ToDoScheduler) · 학습용 저장소 준비 중
+
 ## Tech Stack
 
-- **Languages:** Java, Python, C++
-- **Backend:** Spring Boot, JPA
-- **Database:** PostgreSQL, Oracle Autonomous Database
-- **Frontend:** Vue
-- **Infrastructure:** AWS EC2, OCI, Docker, Nginx, GitHub Actions
+### Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+### Backend & Database
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Oracle Autonomous Database](https://img.shields.io/badge/Oracle%20Autonomous%20Database-F80000?style=flat-square)
+
+### Frontend
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+
+### Infrastructure
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square)
+![OCI](https://img.shields.io/badge/OCI-F80000?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
