@@ -11,6 +11,16 @@
 
 ## Experience
 
+| 기간 | 활동 | 역할·내용 |
+| :--- | :--- | :--- |
+| 2025.09–2025.12 | AD 보행온 · 2등 수상 | 교통약자 보행 안내 서비스 기획·Figma 프로토타입, 보고서 작성 |
+| 2026.01–2026.03 | 알고리즘 학회 Koala · 심화반 21기 | 알고리즘 심화반 활동 |
+| 2026.03–2026.06 | 산학 프로젝트 · Fresh Kitchen | 백엔드 개발, DB·ERD·REST API 설계 |
+| 2026.06–2026.08 | Oracle 공공데이터 프로젝트 · CoolingVerse | 프로젝트 총괄, 데이터 처리, 프론트엔드 및 배포 |
+| 2026.07–2026.10 (진행 중) | 오픈소스 컨트리뷰션 아카데미 · GlueSQL | Rust 기반 SQL 엔진 기여 |
+
+## Development Experience
+
 ### Fresh Kitchen — 산학 프로젝트
 2026.03–2026.06 · 백엔드 개발
 
@@ -48,9 +58,9 @@ Rust 기반 SQL 엔진의 SQL 구문 처리와 테스트, 성능 측정 작업�
 
 ## Currently Learning
 
-- **Algorithms / C++17** — 자료구조와 알고리즘 문제 풀이
+- **Algorithms / C++17** — 자료구조와 알고리즘 문제 풀이<br>
   [problem-solving](https://github.com/kwondo1017/problem-solving)
-- **AI Agent** — 도구 호출, 컨텍스트·메모리 관리와 에이전트 실행 구조 학습  
+- **AI Agent** — 도구 호출, 컨텍스트·메모리 관리와 에이전트 실행 구조 학습<br>
   [ToDoScheduler](https://github.com/kwondo1017/ToDoScheduler) · 학습용 저장소 준비 중
 
 ## Tech Stack
