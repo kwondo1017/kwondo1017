@@ -1,10 +1,15 @@
+<div align="center">
+
 # 권도윤 · Doyun Kwon
 
 한국항공대학교 소프트웨어학과 학부생입니다. 
+
 Java / Spring 기반 서비스 개발과 Rust 오픈소스 기여 경험을 쌓고 있으며, 분산시스템·스토리지·시스템 소프트웨어에 관심이 있습니다.
 
-[Blog](https://velog.io/@kwondo1017) · [GitHub](https://github.com/kwondo1017)
+[![Blog](https://img.shields.io/badge/Blog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@kwondo1017)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kwondo1017)
 
+</div>
 
 ## Development Experience
 
